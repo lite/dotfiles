@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# This is an example file. Don't use this for your custom scripts. Instead, create another file within the
+# custom directory.
+
+alias jt="bundle exec buildr hi:app:go test=no"
+alias idg="bundle exec buildr idea:clean idea"
+alias dbc="bundle exec buildr db:clean"
+alias bb="bundle exec buildr"
+alias cu="bundle exec cucumber"
+
+export JAVA_OPTS='-Xms1g -Xmx1g' 

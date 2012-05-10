@@ -1,0 +1,4 @@
+# use putclip and getclip in cygwin
+alias pbcopy='putclip'
+alias pbpaste='getclip'
+

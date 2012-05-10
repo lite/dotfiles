@@ -1,0 +1,6 @@
+[submodule ".vim/neobundle.vim"]
+	path = .vim/neobundle.vim
+	url = git://github.com/Shougo/neobundle.vim.git
+[submodule ".bash-it"]
+	path = .bash-it
+	url = git://github.com/revans/bash-it.git

@@ -1,0 +1,29 @@
+[user]
+	name = lite
+	email = litekok@gmail.com
+[core]
+	excludesfile = /Users/dli/.gitignore
+	ignorecase = false
+	quotepath = false
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+[branch "master"]
+	merge = master
+[alias]
+	who = shortlog -s -n --no-merges
+	standup = shortlog --since=yesterday
+	uncommit = reset --soft HEAD^
+[github]
+	user = lite
+[push]
+	default = current
+[merge]
+    keepBackup = false;
+    tool = p4merge
+[mergetool "p4merge"]
+    cmd = p4merge "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
