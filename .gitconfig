@@ -1,6 +1,6 @@
 [user]
-	name = lite
-	email = litekok@gmail.com
+	name = cnfssle
+	email = cnfssle@gmail.com
 [core]
 	excludesfile = /Users/dli/.gitignore
 	ignorecase = false
@@ -16,7 +16,7 @@
 	standup = shortlog --since=yesterday
 	uncommit = reset --soft HEAD^
 [github]
-	user = lite
+	user = cnfssle
 [push]
 	default = current
 [merge]
