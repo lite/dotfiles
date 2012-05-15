@@ -10,6 +10,8 @@ Installation
   cd ~/.dotfiles
   ./install.sh
 
+  curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
 Zencoding
   expend - ctrl + y + ,
   comment - ctrl + y + / 
