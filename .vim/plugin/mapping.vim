@@ -1,12 +1,3 @@
-
-"""""
-" Key And Mouse Settings
-"""""
-"if has('mouse')
-"  set mouse=a
-"endif
-set ttymouse=xterm2
-
 " Change the mapleader from \ to ,
 let mapleader=","
 
