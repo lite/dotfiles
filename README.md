@@ -15,4 +15,15 @@ Installation
 Zencoding
   expend - ctrl + y + ,
   comment - ctrl + y + / 
-  
+
+ZoomWin
+  fullscreen <c-w>o
+
+TagList
+  <leader>tl
+
+NERDTree
+  <leader>tt
+
+lowercase
+  g~

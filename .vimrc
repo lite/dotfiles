@@ -33,22 +33,40 @@ NeoBundle 'vimrc'
 
 " Load Plugins on github
 NeoBundle 'tpope/vim-surround'
-NeoBundle 'thinca/vim-ref'
+NeoBundle 'thinca/vim-ref' 
+NeoBundle 'thinca/vim-openbuf' 
+NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'thinca/vim-ref' 
+NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/vimshell'
-NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'Shougo/vimfiler'
+NeoBundle 'ervandew/supertab'
 "NeoBundle 'sjl/gundo.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
-NeoBundle 'kien/tabman.vim'
+"NeoBundle 'kien/tabman.vim'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'Shougo/neocomplcache-snippets-complete'
+" NeoBundle 'Shougo/neocomplcache-snippets-complete'
 NeoBundle 'mattn/zencoding-vim'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'vim-scripts/taglist.vim'
+NeoBundle 'godlygeek/tabular'
+NeoBundle 'mattn/benchvimrc-vim'
+NeoBundle 't9md/vim-textmanip'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'
+NeoBundle 'tomtom/tlib_vim'
+NeoBundle 'garbas/vim-snipmate'
+NeoBundle 'honza/snipmate-snippets'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'vim-scripts/ZoomWin'
 
 " Load Plugins on vim.org
 NeoBundle 'sudo.vim'
+
+" Language
+NeoBundle 'tpope/vim-rails'
 
 filetype plugin indent on
 
