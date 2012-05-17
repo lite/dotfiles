@@ -1,6 +1,3 @@
-" Change the mapleader from \ to ,
-let mapleader=","
-
 nnoremap ,e :execute '!' &ft ' %'<CR>
 
 " Maintain selection after indent

@@ -26,4 +26,11 @@ NERDTree
   <leader>tt
 
 lowercase
-  g~
+  g
+
+Surround
+  cs)]
+  cst<p>
+
+EasyMotion
+  <leader><leader>f

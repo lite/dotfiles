@@ -36,5 +36,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+[[ -s $HOME/.zsh/env.zsh ]] && source $HOME/.zsh/env.zsh
 [[ -s $HOME/.zsh/alias.zsh ]] && source $HOME/.zsh/alias.zsh
 

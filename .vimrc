@@ -21,6 +21,10 @@
 " .vim/bundle/vimrc/ftplugin
 """""
 
+set nocompatible
+" Change the mapleader from \ to ,
+let mapleader=","
+
 " Load neobundle
 filetype plugin indent off
 if has('vim_starting')

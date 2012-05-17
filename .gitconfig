@@ -12,18 +12,10 @@
 [branch "master"]
 	merge = master
 [alias]
-	who = shortlog -s -n --no-merges
-	standup = shortlog --since=yesterday
-	uncommit = reset --soft HEAD^
+    vimdiff = difftool -y -t vimdiff -R
 [github]
 	user = lite
 [push]
 	default = current
-[merge]
-    keepBackup = false;
-    tool = p4merge
-[mergetool "p4merge"]
-    cmd = p4merge "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
-    keepTemporaries = false
-    trustExitCode = false
-    keepBackup = false
+[pager]
+      diff =
