@@ -1,5 +1,5 @@
 
-alias ls='ls --color'
+alias emacs='emacs -nw'
 alias grep='grep -P -a --color=auto'
 alias df='df -h'
 alias wget='wget --no-check-certificate'
