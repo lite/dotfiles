@@ -2,9 +2,13 @@
 
 # setup dot files symbolic link
 DIR=$(cd $(dirname $0);pwd)
-for FILE in `ls -A --ignore='.git' --ignore='install.sh' $DIR`
+for FILE in `ls -A $DIR`
 do
-  ln -vsf $DIR/$FILE $HOME
+  if [[ $FILE =~ '.git' ]] || [[ $FILE =~ 'install.sh' ]] || [[ $FILE =~ 'README.md' ]]; then 
+    echo "ignore $DIR/$FILE"
+  else
+    ln -vsf $DIR/$FILE $HOME
+  fi
 done
 
 # setup git submodule plugins
