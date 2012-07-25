@@ -4,3 +4,6 @@
 [submodule ".bash-it"]
 	path = .bash-it
 	url = git://github.com/revans/bash-it.git
+[submodule ".emacs-it/clojure-mode"]
+	path = .emacs-it/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git
