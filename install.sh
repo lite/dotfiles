@@ -2,8 +2,13 @@
 
 # setup dot files symbolic link
 DIR=$(cd $(dirname $0);pwd)
-for FILE in `ls -A $DIR | sed -r 's/^(.git||install.sh|README.md)$//g'`
+#FILES=`ls -A $DIR | sed -r 's/^(.git|install.sh|README.md)$//g'`
+
+for FILE in `ls -A $DIR`
 do
+  case "$FILE" in .git|install.sh|README.md)
+    continue;;
+  esac
   ln -vsf $DIR/$FILE $HOME
 done
 
