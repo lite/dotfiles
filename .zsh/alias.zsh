@@ -3,6 +3,7 @@ alias emacs='emacs -nw'
 alias grep='grep -P -a --color=auto'
 alias df='df -h'
 alias wget='wget --no-check-certificate'
+alias rake='noglob rake'
 
 alias redo='sudo $(fc -ln -1)'
 mcd() { mkdir -p "$@" && cd "$@"; }
