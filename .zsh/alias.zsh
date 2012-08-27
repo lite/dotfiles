@@ -16,7 +16,8 @@ cd() {
 alias gowd='cd "`pbpaste`"'
 alias cwd='pwd | pbcopy'
 
-alias hub='cd ~/code/github/lite'
+alias hub='cd ~/code/github/lite/'
+alias dth='cd ~/dth/git.dev/'
 
 alias grm='git status -s | grep "^ D" | awk "{print $2}" | xargs git rm'
 alias glog='git log --graph --oneline'
