@@ -71,5 +71,5 @@ if has("autocmd")
   autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 endif
 
-nnoremap <ESC><ESC> :nohlsearch<CR><ESC>
+" nnoremap <ESC><ESC> :nohlsearch<CR><ESC>
 

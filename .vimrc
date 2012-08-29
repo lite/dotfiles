@@ -72,5 +72,5 @@ NeoBundle 'sudo.vim'
 " Language
 NeoBundle 'tpope/vim-rails'
 
-filetype plugin indent on
+" filetype plugin indent on
 
