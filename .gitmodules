@@ -5,3 +5,6 @@
 	path = .bash-it
 	url = git://github.com/revans/bash-it.git
 
+[submodule ".emacs.d/emacs24-starter-kit"]
+	path = .emacs.d/emacs24-starter-kit
+	url = git://github.com/eschulte/emacs24-starter-kit.git
