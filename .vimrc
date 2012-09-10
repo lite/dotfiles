@@ -22,16 +22,14 @@
 """""
 
 set nocompatible
-" Change the mapleader from \ to ,
-let mapleader=","
-
 " Load neobundle
-filetype plugin indent off
+filetype off
+
 if has('vim_starting')
     set runtimepath+=~/.vim/neobundle.vim
-    call neobundle#rc(expand('~/.vim/bundle/'))
 endif
 
+call neobundle#rc(expand('~/.vim/bundle/'))
 " Load Self Plugin
 NeoBundle 'vimrc'
 
@@ -73,4 +71,6 @@ NeoBundle 'sudo.vim'
 NeoBundle 'tpope/vim-rails'
 
 " filetype plugin indent on
+" Change the mapleader from \ to ,
+let mapleader=","
 
