@@ -22,4 +22,4 @@ alias dth='cd ~/dth/git.dev/'
 alias grm='git status -s | grep "^ D" | awk "{print $2}" | xargs git rm'
 alias glog='git log --graph --oneline'
 
-
+alias myip='curl ifconfig.me'
