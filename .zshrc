@@ -35,9 +35,14 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 [[ -s $HOME/.zsh/env.zsh ]] && source $HOME/.zsh/env.zsh
 [[ -s $HOME/.zsh/alias.zsh ]] && source $HOME/.zsh/alias.zsh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+NVM_DIR=$HOME/.nvm
+
+[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh" 
+
