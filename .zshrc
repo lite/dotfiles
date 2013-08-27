@@ -40,7 +40,8 @@ unsetopt correct_all
 [[ -s $HOME/.zsh/env.zsh ]] && source $HOME/.zsh/env.zsh
 [[ -s $HOME/.zsh/alias.zsh ]] && source $HOME/.zsh/alias.zsh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$HOME/.rvm/bin:/usr/local/share/npm/bin:$PATH
+# Add RVM to PATH for scripting
 
 NVM_DIR=$HOME/.nvm
 

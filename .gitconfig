@@ -9,8 +9,8 @@
 	status = auto
 	diff = auto
 	branch = auto
-[branch "master"]
-	merge = master
+[branch]
+	autosetuprebase = always
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
     vimdiff = difftool -y -t vimdiff -R
@@ -18,3 +18,12 @@
 	default = current
 [pager]
     diff =
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[github]
+	user = lite
+	password = 7u8i9o0P
